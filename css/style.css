@@ -11,8 +11,8 @@
 
     /* Apply separate SVGs for each border */
     background-image: 
-        url('../images/rippedPaperTop.png'), 
-        url('../images/rippedPaperBottom.png');
+        url('images/rippedPaperTop.png'), 
+        url('images/rippedPaperBottom.png');
     background-position: top center, bottom center; /* Move top border up */
     background-repeat: no-repeat;
     
@@ -39,7 +39,7 @@
     left: 0;
     width: 100%;
     height: 60vh; /* Use vh to make the image scale nicely */
-    background-image: url('../images/fog.svg');
+    background-image: url('images/fog.svg');
     background-size: cover; /* Change from 'contain' to 'cover' to make it overlap */
     background-repeat: no-repeat;
     background-position: center bottom;
